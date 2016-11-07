@@ -35,7 +35,7 @@
 	<!-- Shared version number properties -->
 	<properties>
 		<org.springframework.version>4.3.3.RELEASE</org.springframework.version>
-		<apache.tiles>3.0.3</apache.tiles>
+		<apache.tiles>3.0.7</apache.tiles>
 	</properties>
 
 	<dependencies>
@@ -54,6 +54,8 @@
 			<scope>provided</scope>
 		</dependency>
 
+
+
 		<!-- Apache Tiles -->
 		<dependency>
 			<groupId>org.apache.tiles</groupId>
@@ -67,10 +69,38 @@
 			<version>${apache.tiles}</version>
 		</dependency>
 
+		<!-- Hibernate Entity Manager -->
 		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+			<version>4.3.4.Final</version>
+		</dependency>
+		
+		<!-- Spring Data JPA -->
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-jpa</artifactId>
+			<version>1.10.4.RELEASE</version>
+		</dependency>
+
+		<!-- Hypersonic Database -->
+		<dependency>
+			<groupId>org.hsqldb</groupId>
+			<artifactId>hsqldb</artifactId>
+			<version>2.3.4</version>
+		</dependency>
+
+
+<!-- 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-log4j12</artifactId>
 			<version>1.5.8</version>
+		</dependency> -->
+		
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.7.6</version>
 		</dependency>
 
 		<dependency>
@@ -200,7 +230,7 @@
 			<version>${org.springframework.version}</version>
 			<scope>test</scope>
 		</dependency>
-		
-		
+
+
 	</dependencies>
 </project>

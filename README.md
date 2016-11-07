@@ -5,8 +5,8 @@ Web-приложение с использованием Spring для IT мен
 
 ## История изменений:
 
-**05.11.2016** - коммит каркаса приложения
-**06.11.2016** - добавление Twitter Bootstrap и Apache Tiles
+**05.11.2016** - коммит каркаса приложения<br/>
+**06.11.2016** - добавление Twitter Bootstrap и Apache Tiles, добавление Root Context
 
 ## Технологии:
 - Maven 
@@ -16,9 +16,9 @@ Web-приложение с использованием Spring для IT мен
 - Jetty
 
 ## Сборка:
-Используемые инструменты:
-Spring Tool Suite
-Version: 3.7.3.RELEASE
+Используемые инструменты:<br/>
+Spring Tool Suite<br/>
+Version: 3.7.3.RELEASE<br/>
 
 ## Список TODO:
 
