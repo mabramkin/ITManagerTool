@@ -70,4 +70,12 @@ public class User {
 		public void setPassword(String password) {
 			this.password = password;
 		}
+
+		public List<Blog> getBlogs() {
+			return blogs;
+		}
+
+		public void setBlogs(List<Blog> blogs) {
+			this.blogs = blogs;
+		}
 }

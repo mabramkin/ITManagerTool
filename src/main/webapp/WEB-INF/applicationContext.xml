@@ -37,5 +37,6 @@
 		<property name="dataSource" ref="dataSource"/>
 	</bean>
 	
-	<jpa:repositories base-package="ru.allineed.repository"></jpa:repositories>
+	<!--  Package where repositories are located -->
+	<jpa:repositories base-package="ru.allineed.repository" entity-manager-factory-ref="emf"></jpa:repositories>
 </beans>

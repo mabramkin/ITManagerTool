@@ -7,13 +7,15 @@ Web-приложение с использованием Spring для IT мен
 
 **05.11.2016** - коммит каркаса приложения<br/>
 **06.11.2016** - добавление Twitter Bootstrap и Apache Tiles, добавление Root Context
+**20.11.2016** - Добавление формы регистрации, страницы пользователя
 
 ## Технологии:
 - Maven 
-- Spring 4.3.3
+- Spring 4.3.3 (Spring MVC, Spring Data, Spring Security)
 - Apache Tiles
 - Twitter Bootstrap
 - Jetty
+
 
 ## Сборка:
 Используемые инструменты:<br/>
