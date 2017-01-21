@@ -59,6 +59,7 @@
 						<li class="${current == 'index' ? 'active' : '' }"><a href='<spring:url value="/" />'>Главная</a></li>
 						<li class="${current == 'users' ? 'active' : '' }"><a href="<spring:url value="/users.html"></spring:url>">Пользователи</a></li>
 						<li class="${current == 'register' ? 'active' : '' }"><a href="<spring:url value="/register.html"></spring:url>">Регистрация</a></li>						
+						<li class="${current == 'login' ? 'active' : '' }"><a href="<spring:url value="/login.html"></spring:url>">Вход</a></li>
 						<!-- <li class="dropdown"><a href="#" class="dropdown-toggle"
 							data-toggle="dropdown" role="button" aria-haspopup="true"
 							aria-expanded="false">Dropdown <span class="caret"></span></a>

@@ -39,4 +39,6 @@
 	
 	<!--  Package where repositories are located -->
 	<jpa:repositories base-package="ru.allineed.repository" entity-manager-factory-ref="emf"></jpa:repositories>
+	
+	<import resource="security.xml"/>
 </beans>
